@@ -91,6 +91,8 @@
     height: 3px;
     transform: translateX(-50%);
   }
+
+
   
   section .title::after {
     position: absolute;
@@ -855,3 +857,9 @@
       line-height: 38px;
     }
   }
+
+
+
+.border-line{
+    border-bottom:10px solid #022446;
+}
