@@ -39,17 +39,9 @@
   .loader img {
     width: 280px;
   }
+
+
   
-  ::-webkit-scrollbar-thumb {
-    border-radius: 12px;
-    background: linear-gradient(135deg, #f57308, #fff, rgb(11, 242, 7));
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(135deg, #1a6ad2, #fff, rgb(245, 5, 53));
-  }
-  
-  /*  Simillar  */
   
   section {
     padding: 100px 0;
@@ -110,7 +102,6 @@
     transform: translateX(-50%);
   }
   
-  /*  Navbar  */
   .navbar {
     position: fixed;
     width: 100%;
@@ -137,7 +128,6 @@
     font-weight: 600;
   }
   
-  /*  Nav Logo Span Linear-Gradient  */
   .navbar .logo a span {
     background: linear-gradient(135deg, #041d3d, #fff, crimson);
     -webkit-background-clip: text;
@@ -171,7 +161,6 @@
     color: #fff;
   }
   
-  /*  Menu Btn  */
   .menu-btn {
     color: #fff;
     font-size: 23px;
@@ -209,7 +198,6 @@
     filter: brightness(90%);
   }
   
-  /*  Home  */
   .home {
     display: flex;
     background: url("https://source.unsplash.com/720x600/?dark,laptop") no-repeat
@@ -246,7 +234,6 @@
     margin: 5px 0;
   }
   
-  /* Linear Gradient */
   .home .home-content .text-3 span {
     color: #1e3551;
     background: linear-gradient(135deg, #041d3d, #fff, crimson);
@@ -274,7 +261,6 @@
     animation: pulsate 1s ease-in-out;
   }
   
-  /*  About  */
   .about {
     background: radial-gradient(#e1efff, white);
   }
@@ -307,9 +293,7 @@
     margin-bottom: 10px;
   }
   
-  /* Linear Gradiant */
   .about .about-content .right .text span {
-    /* color: #1e3551; */
     background: linear-gradient(135deg, #041d3d, #fff, crimson);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -338,66 +322,8 @@
     animation: pulsate 1s ease-in-out;
   }
   
-  /*  Service  */
-  .services,
-  .projects {
-    color: #fff;
-    background: #111;
-  }
+
   
-  .services .title::before,
-  .projects .title::before {
-    background: #fff;
-  }
-  
-  .services .title::after,
-  .projects .title::after {
-    background: #111;
-    content: "What I Provide ?";
-  }
-  
-  .services .serv-content .card {
-    width: calc(33% - 20px);
-    background: #222;
-    text-align: center;
-    border-radius: 10px;
-    padding: 50px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .services .serv-content .card:hover {
-    background: #1e3551;
-  }
-  
-  .services .serv-content .card .box {
-    transition: all 0.3s ease;
-  }
-  
-  .services .serv-content .card:hover .box {
-    transform: scale(1.05);
-  }
-  
-  .services .serv-content .card i {
-    font-size: 50px;
-    color: #888e8d;
-    background: linear-gradient(135deg, #041d3d, #fff, crimson);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: color 0.3s ease;
-  }
-  
-  .services .serv-content .card:hover i {
-    color: #fff;
-  }
-  
-  .services .serv-content .card .text {
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-  }
-  
-  /*  Skills  */
   .skills {
     background: radial-gradient(#e1efff, white);
   }
@@ -438,12 +364,12 @@
     animation: pulsate 1s ease-in-out;
   }
   
-  .intern,
+  
   .project {
     list-style: none;
   }
   
-  .intern::before,
+  
   .project::before {
     content: "✪ ";
     color: #1e3551;
@@ -505,7 +431,6 @@
     width: 70%;
   }
   
-  /*  Projects  */
   .projects .title::after {
     content: "What I did ?";
   }
@@ -579,7 +504,6 @@
     background: #18365a !important;
   }
   
-  /*  Contact  */
   .contact {
     background: radial-gradient(#e1efff, white);
   }
@@ -700,7 +624,6 @@
     animation: pulsate 1s ease-in-out;
   }
   
-  /*  Social  */
   .col-4 {
     background: #d8d8d8;
   }
@@ -780,7 +703,6 @@
     color: #fff;
   }
   
-  /*  Footer  */
   footer {
     background: #111;
     padding: 6px 16px;
@@ -797,7 +719,6 @@
     text-decoration: underline;
   }
   
-  /*  Media Query  */
   @keyframes pulsate {
     0% {
       box-shadow: 0 0 25px #888e8d, 0 0 50px #1e3551;
