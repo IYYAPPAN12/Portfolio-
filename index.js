@@ -35,7 +35,9 @@ $(document).ready(function () {
       strings: [
         "Front-End Developer",
         "ReactJs Developer",
-        "Python Developer"
+        "Python Developer",
+        "Version Control"
+
       
       ],
       typeSpeed: 100,
@@ -47,7 +49,8 @@ $(document).ready(function () {
       strings: [
         "Front-End Developer",
         "ReactJs Developer",
-        "Python Developer"
+        "Python Developer",
+        "Version Control"
 
 
 
