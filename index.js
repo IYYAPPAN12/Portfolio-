@@ -35,8 +35,7 @@ $(document).ready(function () {
       strings: [
         "Front-End Developer",
         "ReactJs Developer",
-        "Python Developer",
-        "Version Control"
+        "Python Developer"
 
       
       ],
@@ -49,8 +48,7 @@ $(document).ready(function () {
       strings: [
         "Front-End Developer",
         "ReactJs Developer",
-        "Python Developer",
-        "Version Control"
+        "Python Developer"
 
 
 
